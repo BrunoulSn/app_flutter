@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:meu_app/stateful/botao.dart';
+import 'package:meu_app/Exercicio/Loja.dart';
+import 'package:meu_app/stateful/BotaoContador.dart';
+import 'package:meu_app/stateful/DarkMode.dart';
+import 'package:meu_app/stateful/RandomNumber.dart';
 import 'package:meu_app/stateless/Botao.dart';
 import 'package:meu_app/stateless/SemEstado.dart';
 import 'package:meu_app/stateless/User.dart';
@@ -8,9 +11,12 @@ void main() {
  /* runApp(MaterialApp(home: Center(
     child: User(),
   ),));*/
-  runApp(MaterialApp(home: Center(
+  /*runApp(MaterialApp(home: Center(
     child: BotaoCount(),
   ),));
+  runApp(Darkmode());*/
+  //runApp(RandomNumber());
+  runApp(Loja());
 }
  
 
