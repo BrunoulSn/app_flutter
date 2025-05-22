@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meu_app/Exercicio/Loja.dart';
+import 'package:meu_app/Inherited/UserInfos.dart';
 import 'package:meu_app/stateful/BotaoContador.dart';
 import 'package:meu_app/stateful/DarkMode.dart';
 import 'package:meu_app/stateful/RandomNumber.dart';
@@ -16,7 +17,8 @@ void main() {
   ),));
   runApp(Darkmode());*/
   //runApp(RandomNumber());
-  runApp(Loja());
+  //runApp(Loja());
+  runApp(UserInfos());
 }
  
 
